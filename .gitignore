@@ -1,0 +1,72 @@
+# Dependências do Node.js
+node_modules/
+
+# Saídas de compilação do TypeScript e NestJS
+dist/
+build/
+*.tsbuildinfo
+
+# Relatórios e artefatos de testes
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+
+# Logs de execução e dos gerenciadores de pacotes
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache de ferramentas
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.vite/
+
+# Dados e backups locais do PostgreSQL
+pgdata/
+.postgres/
+*.dump
+*.backup
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Configurações locais de editores e IDEs
+.idea/
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# A documentação de estudo deve sempre permanecer versionável
+!*.md
+!**/*.md
+
+# Também devem ser versionados:
+# - arquivos HTML, CSS, JavaScript e TypeScript;
+# - templates Handlebars e arquivos da pasta views;
+# - migrações TypeORM e scripts SQL de estudo;
+# - a apostila em DOCX.
