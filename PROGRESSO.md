@@ -38,6 +38,8 @@ assistente não deve alterar os arquivos de código do estudante.
   `ul` e `li` no arquivo `index.html`.
 - Corrigir `device-widht` para `device-width` na meta tag viewport.
 - Depois, revisar o documento pela guia Elements e concluir o Capítulo 1.
+- Material de apoio disponível: a apostila agora contém referências práticas
+  ampliadas de HTML e CSS para consulta durante os exercícios.
 
 ## Histórico de sessões
 
@@ -68,8 +70,50 @@ assistente não deve alterar os arquivos de código do estudante.
   diferença entre carregamento local por `file://` e uma requisição HTTP.
 - Próximo passo: criar a lista de três metas, corrigir a meta viewport e
   inspecionar a estrutura resultante na guia Elements.
-- Material atualizado: a apostila recebeu referências práticas ampliadas de
-  elementos HTML e fundamentos de CSS.
+- Verificação posterior: o arquivo versionado da apostila não contém as
+  referências práticas ampliadas de HTML e CSS. O registro anterior de que
+  essas seções haviam sido adicionadas não correspondia ao documento atual.
+
+### 2026-10-22 — Revisão de integridade da apostila
+
+- Conteúdo revisado: estrutura, capítulos, exemplos, exercícios, paginação,
+  acessibilidade e renderização completa da apostila.
+- Verificação realizada: inspeção visual das 43 páginas e auditorias de
+  títulos, seções e limites do conteúdo.
+- Resultado: não foram encontrados cortes, sobreposições, comentários ou
+  alterações rastreadas; a auditoria de acessibilidade não apontou problemas.
+- Pendência encontrada: faltam as seções ampliadas de referência de HTML e
+  CSS solicitadas anteriormente. O Capítulo 1 ainda não ensina listas antes do
+  exercício que pede `ul` e `li`.
+- Observação de diagramação: várias páginas têm grande área vazia devido às
+  quebras entre capítulos e à continuação de exercícios.
+- Arquivos preservados: nenhum código nem a apostila foram alterados nesta
+  revisão; somente este registro de progresso foi atualizado.
+- Próximo passo: continuar o exercício da lista e, mediante solicitação
+  explícita, inserir e revisar as referências ampliadas na apostila.
+
+### 2026-10-22 — Ampliação das referências de HTML e CSS
+
+- Conteúdo adicionado: diferença entre tag, elemento e atributo; elementos HTML
+  organizados por finalidade; atributos essenciais; seletores, cascata,
+  especificidade, unidades, box model, tipografia, Flexbox, Grid,
+  responsividade, estados, animações e variáveis CSS.
+- Exemplos adicionados: lista de metas com `ul` e `li` e estilização completa de
+  um formulário com CSS.
+- Exercícios adicionados: consultas graduais para praticar HTML e CSS antes de
+  prosseguir aos capítulos seguintes.
+- Verificação realizada: revisão visual das 57 páginas e auditorias de
+  acessibilidade, títulos, seções, limites, comentários e alterações
+  rastreadas.
+- Resultado: nenhuma sobreposição ou conteúdo fora da página; nenhuma falha de
+  acessibilidade, comentário ou alteração rastreada foi encontrada.
+- Arquivos preservados: nenhum arquivo de código foi alterado; somente a
+  apostila e este registro de progresso foram atualizados.
+- Dificuldades atuais: escolher a estrutura correta de lista e consolidar a
+  diferença entre recursos locais abertos por `file://` e páginas servidas por
+  HTTP.
+- Próximo passo: concluir o exercício 2 do Capítulo 1 criando, por conta
+  própria, uma lista não ordenada com três metas de estudo.
 
 ## Modelo para novas sessões
 
