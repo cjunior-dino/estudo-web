@@ -6,9 +6,9 @@ assistente não deve alterar os arquivos de código do estudante.
 
 ## Estado atual
 
-- Módulo: diagnóstico inicial
-- Capítulo da apostila: diagnóstico inicial
-- Exercício atual: reescrever as respostas 3, 4 e 5
+- Módulo: fundamentos de HTML e funcionamento da web
+- Capítulo da apostila: Capítulo 1 — Como a web funciona
+- Exercício atual: exercício 2 — adicionar uma lista com três metas de estudo
 - Status: em andamento
 
 ## Conteúdos concluídos
@@ -20,17 +20,24 @@ assistente não deve alterar os arquivos de código do estudante.
 - Proteção de senhas por hash.
 - Diferença entre autenticação e autorização.
 - Finalidade básica do Handlebars na renderização de páginas.
+- Diferença entre o título da aba (`title`) e o título visível (`h1`).
+- Uso de `p` para parágrafos e de `ul`, `ol` e `li` para listas.
+- Inspeção do arquivo `index.html` na guia Network do navegador.
 
 ## Dificuldades e dúvidas
 
 - Diferenciar corretamente as responsabilidades dos métodos GET e POST.
 - Entender que a unicidade considera o endereço de e-mail completo.
 - Separar proteção da senha durante o transporte e durante o armazenamento.
+- Escolher a tag de lista adequada e estruturar seus itens.
+- Diferenciar um arquivo aberto por `file://` de uma página servida por HTTP.
 
 ## Próximo passo
 
-- Reescrever, com palavras próprias, as respostas 3, 4 e 5 do diagnóstico.
-- Depois, iniciar o Capítulo 1 sobre como a web funciona.
+- Adicionar, por conta própria, uma lista não ordenada com três metas usando
+  `ul` e `li` no arquivo `index.html`.
+- Corrigir `device-widht` para `device-width` na meta tag viewport.
+- Depois, revisar o documento pela guia Elements e concluir o Capítulo 1.
 
 ## Histórico de sessões
 
@@ -47,6 +54,22 @@ assistente não deve alterar os arquivos de código do estudante.
 - Dificuldades: conceitos de GET e POST, unicidade de e-mail e diferença entre
   transmissão segura e armazenamento seguro da senha.
 - Próximo passo: reescrever as respostas 3, 4 e 5 e iniciar o Capítulo 1.
+
+### 2026-10-22 — Capítulo 1 e inspeção no navegador
+
+- Conteúdo estudado: diferença entre `head` e `body`, função de `title` e
+  `h1`, parágrafos, listas e inspeção de recursos na guia Network.
+- Exercício realizado: alteração dos títulos e inclusão de dois parágrafos;
+  localização do `index.html` no Network com método GET e status 200.
+- O que aprendi: `title` identifica a página na interface do navegador,
+  enquanto `h1` apresenta o assunto principal no documento; `p` cria
+  parágrafos, `ul` cria uma lista sem ordem e cada item usa `li`.
+- Dificuldades: identificar a tag correta para a lista e compreender a
+  diferença entre carregamento local por `file://` e uma requisição HTTP.
+- Próximo passo: criar a lista de três metas, corrigir a meta viewport e
+  inspecionar a estrutura resultante na guia Elements.
+- Material atualizado: a apostila recebeu referências práticas ampliadas de
+  elementos HTML e fundamentos de CSS.
 
 ## Modelo para novas sessões
 
