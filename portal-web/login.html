@@ -3,10 +3,32 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>login</title>
+        <title>Login</title>
     </head>
 
     <body>
-        <h1>Login</h1>
+        <header>
+            <a href="login.html">Login</a>
+            <nav aria-label="Navegação principal"> 
+                <a href="index.html">Portal de Estudo </a>
+                <a href="cadastro.html">Cadastro</a> 
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2 id="login">Login</h2>
+                <form action="cadastrar" >
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" />
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" />
+
+                    <button type="submit">login</button>
+                </form>
+                    
+            </section>
+        </main>
+
+         <footer><small>Portal de Estudo</small></footer>
     </body>
 </html>

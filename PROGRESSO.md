@@ -7,8 +7,9 @@ assistente não deve alterar os arquivos de código do estudante.
 ## Estado atual
 
 - Módulo: fundamentos de HTML e funcionamento da web
-- Capítulo da apostila: Capítulo 1 — Como a web funciona
-- Exercício atual: exercício 2 — adicionar uma lista com três metas de estudo
+- Capítulo da apostila: Capítulo 2 — HTML semântico
+- Exercício atual: exercícios graduais 1 e 3 — completar a segunda seção e
+  nomear/inspecionar a navegação
 - Status: em andamento
 
 ## Conteúdos concluídos
@@ -23,6 +24,8 @@ assistente não deve alterar os arquivos de código do estudante.
 - Diferença entre o título da aba (`title`) e o título visível (`h1`).
 - Uso de `p` para parágrafos e de `ul`, `ol` e `li` para listas.
 - Inspeção do arquivo `index.html` na guia Network do navegador.
+- Estrutura semântica básica com `header`, `nav`, `main`, `section` e `footer`.
+- Criação de links entre `index.html`, `cadastro.html` e `login.html`.
 
 ## Dificuldades e dúvidas
 
@@ -31,13 +34,18 @@ assistente não deve alterar os arquivos de código do estudante.
 - Separar proteção da senha durante o transporte e durante o armazenamento.
 - Escolher a tag de lista adequada e estruturar seus itens.
 - Diferenciar um arquivo aberto por `file://` de uma página servida por HTTP.
+- Identificar a árvore de acessibilidade na guia Elements, em vez da guia
+  Network.
+- Dar um nome acessível ao elemento `nav` e evitar navegações aninhadas.
 
 ## Próximo passo
 
-- Adicionar, por conta própria, uma lista não ordenada com três metas usando
-  `ul` e `li` no arquivo `index.html`.
-- Corrigir `device-widht` para `device-width` na meta tag viewport.
-- Depois, revisar o documento pela guia Elements e concluir o Capítulo 1.
+- Adicionar uma segunda `section` dentro de `main` no `index.html`.
+- Manter somente um `nav` no cabeçalho e adicionar a ele
+  `aria-label="Navegação principal"` nas três páginas.
+- Abrir Elements > Accessibility, selecionar o `nav` e confirmar o papel
+  `navigation` e o nome `Navegação principal`.
+- Testar com Tab, Shift+Tab e Enter a navegação entre as três páginas.
 - Material de apoio disponível: a apostila agora contém referências práticas
   ampliadas de HTML e CSS para consulta durante os exercícios.
 
@@ -114,6 +122,26 @@ assistente não deve alterar os arquivos de código do estudante.
   HTTP.
 - Próximo passo: concluir o exercício 2 do Capítulo 1 criando, por conta
   própria, uma lista não ordenada com três metas de estudo.
+
+### 2026-11-03 — Revisão dos exercícios de HTML semântico
+
+- Conteúdo estudado: regiões semânticas da página, links, nome acessível de uma
+  navegação e árvore de acessibilidade do navegador.
+- Exercício realizado: revisão somente por leitura de `index.html`,
+  `cadastro.html` e `login.html`.
+- O que aprendi: os links permitem circular entre as três páginas; o elemento
+  `nav` cria uma região de navegação, mas precisa de um nome acessível claro
+  quando inspecionado; a árvore de acessibilidade fica no painel Elements, não
+  no Network.
+- Resultado da revisão: exercício 1 parcialmente concluído, pois a página
+  inicial possui apenas uma `section`; exercício 2 concluído; exercício 3
+  pendente, pois os elementos `nav` ainda não têm `aria-label`.
+- Dificuldades: localizar o painel Accessibility, distinguir a árvore DOM da
+  árvore de acessibilidade e compreender a finalidade de `aria-label`.
+- Arquivos preservados: nenhum HTML foi alterado pelo assistente.
+- Próximo passo: o estudante deve remover o `nav` aninhado, adicionar uma
+  segunda `section`, nomear a navegação nas três páginas e testar os links com
+  Tab, Shift+Tab e Enter.
 
 ## Modelo para novas sessões
 
